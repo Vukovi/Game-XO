@@ -12,6 +12,9 @@
 		BF4D5DBE1D1E6DE100CB68E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4D5DBC1D1E6DE100CB68E7 /* Main.storyboard */; };
 		BF4D5DC01D1E6DE100CB68E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4D5DBF1D1E6DE100CB68E7 /* Assets.xcassets */; };
 		BF4D5DC31D1E6DE100CB68E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4D5DC11D1E6DE100CB68E7 /* LaunchScreen.storyboard */; };
+		BF4D5DCE1D1E6E1900CB68E7 /* iks.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4D5DCB1D1E6E1900CB68E7 /* iks.png */; };
+		BF4D5DCF1D1E6E1900CB68E7 /* oks.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4D5DCC1D1E6E1900CB68E7 /* oks.png */; };
+		BF4D5DD11D1E6F3600CB68E7 /* polje.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4D5DD01D1E6F3600CB68E7 /* polje.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BF4D5DBF1D1E6DE100CB68E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF4D5DC21D1E6DE100CB68E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF4D5DC41D1E6DE100CB68E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4D5DCB1D1E6E1900CB68E7 /* iks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iks.png; sourceTree = "<group>"; };
+		BF4D5DCC1D1E6E1900CB68E7 /* oks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oks.png; sourceTree = "<group>"; };
+		BF4D5DD01D1E6F3600CB68E7 /* polje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = polje.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				BF4D5DB81D1E6DE100CB68E7 /* AppDelegate.swift */,
 				BF4D5DBA1D1E6DE100CB68E7 /* ViewController.swift */,
 				BF4D5DBC1D1E6DE100CB68E7 /* Main.storyboard */,
+				BF4D5DCB1D1E6E1900CB68E7 /* iks.png */,
+				BF4D5DD01D1E6F3600CB68E7 /* polje.png */,
+				BF4D5DCC1D1E6E1900CB68E7 /* oks.png */,
 				BF4D5DBF1D1E6DE100CB68E7 /* Assets.xcassets */,
 				BF4D5DC11D1E6DE100CB68E7 /* LaunchScreen.storyboard */,
 				BF4D5DC41D1E6DE100CB68E7 /* Info.plist */,
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					BF4D5DB41D1E6DE100CB68E7 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -124,6 +134,9 @@
 			files = (
 				BF4D5DC31D1E6DE100CB68E7 /* LaunchScreen.storyboard in Resources */,
 				BF4D5DC01D1E6DE100CB68E7 /* Assets.xcassets in Resources */,
+				BF4D5DD11D1E6F3600CB68E7 /* polje.png in Resources */,
+				BF4D5DCE1D1E6E1900CB68E7 /* iks.png in Resources */,
+				BF4D5DCF1D1E6E1900CB68E7 /* oks.png in Resources */,
 				BF4D5DBE1D1E6DE100CB68E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.IksOks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +280,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vuk.com.IksOks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +303,7 @@
 				BF4D5DC91D1E6DE100CB68E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
